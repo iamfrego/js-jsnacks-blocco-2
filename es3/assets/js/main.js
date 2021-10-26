@@ -7,6 +7,8 @@ while (sum < 50) {
     console.log(sum);
     if (sum < 50) {
         list.push(n);
+    } else {
+        console.log("Somma elementi maggiore di 50")
     }
     console.log(list);
 }
